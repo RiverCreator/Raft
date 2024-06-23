@@ -1,0 +1,52 @@
+syntax = "proto3";
+package rf;
+
+//用来当做复制日志 同时也当做心跳
+message AppendEntriesRequest {
+    int32 m_term = 1; //leader任期
+    int32 m_leaderId = 2; //重定向到leader
+    int32 m_prevLogIndex = 3; //前继日志的索引
+    int32 m_prevLogTerm = 4; //前继日志的任期
+    int32 m_leaderCommit = 5; //leader的将被提交的日志index，用来告诉follower可以提交该index的日志
+    bytes m_sendLogs = 6;  //日志记录
+}
+
+message AppendEntriesResponse {
+    int32 m_term = 1;
+    bool m_success = 2;
+    int32 m_conflict_term = 3; //如果follower接收append的时候发现前继日志不一样  那就返回不一致日志任期
+    int32 m_conflict_index = 4; //冲突term的第一条日志index 
+}
+
+message RequestVote{
+    int32 term = 1; //候选者的任期
+    int32 candidateId = 2; //候选者编号
+    int32 lastLogIndex = 3; //候选者最后一条日志索引
+    int32 lastLogTerm = 4; //候选者最后一条日志索引的任期
+}
+
+message ResponseVote{
+    int32 term = 1; //当前任期，用来给候选者更新自己任期的
+    bool isAccepted =2; //给当前候选者投票为true
+}
+
+message InstallSnapShotRequest{
+    int32 term = 1; //leader的任期
+    int32 leaderId = 2; //follower重定向到leader
+    int32 lastIncludeIndex = 3; //快照最后一条日志记录的索引
+    int32 lastIncludeItem = 4; //快照最后一条日志记录的任期
+    int32 offset = 5; //快照中块的偏移量
+    repeated string data = 6; //数据块，从偏移量开始存储
+    bool done = 7; //是否是最后一个块
+} 
+
+message InstallSnapShotResponse{
+    int32 term = 1;
+}
+
+service RaftServerRpc
+{
+    rpc  AppendEntries(AppendEntriesRequest) returns(AppendEntriesResponse);
+    rpc  Vote(RequestVote) returns(ResponseVote);
+    rpc  InstallSnapShot(InstallSnapShotRequest) returns(InstallSnapShotResponse);
+}

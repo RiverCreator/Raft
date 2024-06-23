@@ -1,0 +1,299 @@
+ 4 attempt election at term 0, timeOut is 294454
+vote finished 2
+vote finished 3
+vote finished 4
+[4] vote to [3] at 13, duration is 29323
+recv logs 0
+[4] recv append from [3] at self term13, send term 13, duration is 2231
+FOLLOWER 4 log size:0
+Start operation
+vote finished 5
+ 4 attempt election at term 13, timeOut is 330531
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 14, timeOut is 396486
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 15, timeOut is 276900
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 16, timeOut is 238798
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 17, timeOut is 309528
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+[4] vote to [0] at 19, duration is 159251
+[4] vote to [0] at 20, duration is 249800
+[4] vote to [0] at 21, duration is 377515
+[4] vote to [0] at 22, duration is 345753
+[4] vote to [0] at 23, duration is 259190
+ 4 attempt election at term 23, timeOut is 382744
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 24, timeOut is 346855
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 25, timeOut is 209247
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 26, timeOut is 329463
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 27, timeOut is 313398
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 28, timeOut is 381012
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 29, timeOut is 352249
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 30, timeOut is 219327
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 31, timeOut is 332499
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 32, timeOut is 314480
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 33, timeOut is 209328
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 34, timeOut is 288823
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 35, timeOut is 324225
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 36, timeOut is 292946
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 37, timeOut is 327081
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 38, timeOut is 235594
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 39, timeOut is 296834
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 40, timeOut is 247943
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 41, timeOut is 330049
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 42, timeOut is 304113
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 43, timeOut is 242887
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 44, timeOut is 304266
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 45, timeOut is 202742
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 46, timeOut is 281685
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 47, timeOut is 213794
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 48, timeOut is 301839
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 49, timeOut is 290196
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 50, timeOut is 341236
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 51, timeOut is 353403
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 52, timeOut is 382427
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 53, timeOut is 387051
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 54, timeOut is 266801
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 55, timeOut is 279791
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 56, timeOut is 255538
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 57, timeOut is 335403
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 58, timeOut is 388037
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 59, timeOut is 249883
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 60, timeOut is 308447
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 61, timeOut is 276861
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 62, timeOut is 391827
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 63, timeOut is 232672
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 64, timeOut is 286159
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 65, timeOut is 318908
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 66, timeOut is 268266
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+[4] vote to [0] at 68, duration is 348286
+[4] vote to [0] at 69, duration is 274571
+[4] vote to [0] at 70, duration is 234280
+[4] vote to [0] at 71, duration is 358296
+[4] vote to [0] at 72, duration is 256521
+[4] vote to [0] at 73, duration is 216710
+[4] vote to [0] at 74, duration is 287601
+[4] vote to [0] at 75, duration is 218533
+[4] vote to [0] at 76, duration is 246327
+[4] vote to [0] at 77, duration is 371014
+[4] vote to [0] at 78, duration is 282191
+[4] vote to [0] at 79, duration is 261828
+[4] vote to [0] at 80, duration is 240694
+[4] vote to [0] at 81, duration is 254330
+[4] vote to [0] at 82, duration is 227364
+[4] vote to [0] at 83, duration is 307132
+[4] vote to [0] at 84, duration is 347037
+[4] vote to [0] at 85, duration is 289055
+[4] vote to [0] at 86, duration is 204844
+[4] vote to [0] at 87, duration is 280070
+[4] vote to [0] at 88, duration is 378069
+[4] vote to [0] at 89, duration is 270313
+[4] vote to [0] at 90, duration is 221281
+[4] vote to [0] at 91, duration is 344403
+ 4 attempt election at term 91, timeOut is 382993
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 92, timeOut is 390059
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+ 4 attempt election at term 93, timeOut is 239240
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5

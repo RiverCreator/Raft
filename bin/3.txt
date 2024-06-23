@@ -1,0 +1,67 @@
+ 3 attempt election at term 0, timeOut is 286103
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+Start operation
+ 3 attempt election at term 9, timeOut is 267994
+vote finished 2
+vote finished 3
+vote finished 4
+vote finished 5
+[3] vote to [1] at 12, duration is 371622
+recv logs 0
+[3] recv append from [1] at self term12, send term 12, duration is 1254
+FOLLOWER 3 log size:0
+ 3 attempt election at term 12, timeOut is 399229
+vote finished 2
+vote finished 3
+vote finished 4
+[3] become new leader at term 13 
+before : 1716629103, 754841
+Leader term:13
+Leader log size:0
+request prevlogindex :0 0
+Leader send log size:0
+[3] -> [0]'s prevLogIndex : 0, prevLogTerm : 0
+Leader term:13
+Leader log size:0
+request prevlogindex :0 0
+Leader send log size:0
+[3] -> [1]'s prevLogIndex : 0, prevLogTerm : 0
+Leader term:13
+Leader log size:0
+request prevlogindex :0 0
+Leader send log size:0
+[3] -> [2]'s prevLogIndex : 0, prevLogTerm : 0
+stub send ok
+conflict index:0
+conflict term:0
+response success :0
+Leader term:13
+Leader log size:0
+request prevlogindex :0 0
+Leader send log size:0
+[3] -> [4]'s prevLogIndex : 0, prevLogTerm : 0
+stub send ok
+conflict index:-1
+conflict term:-1
+response success :1
+stub send ok
+conflict index:-1
+conflict term:-1
+response success :1
+Leader term:13
+Leader log size:0
+request prevlogindex :0 0
+Leader send log size:0
+[3] -> [0]'s prevLogIndex : 0, prevLogTerm : 0
+Leader term:13
+Leader log size:0
+request prevlogindex :0 0
+Leader send log size:0
+[3] -> [1]'s prevLogIndex : 0, prevLogTerm : 0
+Leader term:13
+Leader log size:0
+request prevlogindex :-1 -1
+Leader send log size:0
